@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h5>Git is  by</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Version controlling </p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Central Repository  t</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Distributed system </p>
+				<p class="fragment fade-in" data-fragment-index="4">4. All the above</p>
+			</section>
+			<section class="framgment fade-in">
+				<p class="fragment highlight-green">
+					4. All the above
+				</p>
+			</section>
+			<section>
+				<h5>To work with Git we need </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Work Space</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Local Repository</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Remote Repository</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. All the above</p>				
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					4. All the above
+				</p>
+			</section>
+			<section>
+				<h5>GIT and GITHUB are </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. both are same</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. both are different we need both to work</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Only git is needed</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Only github is needed</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					2. both are different we need both to work
+				</p>
+			</section>
+			<section>
+				<h5>few things about Git is</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. It has Branching</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. It has Merging</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Both 1 and 2 </p>
+				<p class="fragment fade-in" data-fragment-index="4">4. None</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					3. Both 1 and 2
+				</p>
+			</section>
+			<section>
+				<h5>GitHub </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. is a platform for remote repository</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. it is local repository</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. it is distributed repository </p>
+				<p class="fragment fade-in" data-fragment-index="4">4. All the above</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					1. is a platform for remote repository
+				</p>
+			</section>
+			
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			transition: 'concave',
+			progress: true,
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
