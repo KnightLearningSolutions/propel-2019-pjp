@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h5>J2EE/JSP is to</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Build Web Application.</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Build Web Service.</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Build Rest Service.</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. All the above</p>
+			</section>
+			<section class="framgment fade-in">
+				<p class="fragment highlight-green">
+					1. Build Web Application.
+				</p>
+			</section>
+			<section>
+				<h5>Servlet is </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Is an interface we have to override service method</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Is a class we have to override service method</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Is an abstract class we have to override put method</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. None of the above.</p>				
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+			1. Is an interface we have to override service method
+				</p>
+			</section>
+			<section>
+				<h5>JSP is </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. An html page where java is embedded.</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. A Java file where html can be added. </p>
+				<p class="fragment fade-in" data-fragment-index="3">3. A Java script file.</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. None of the above.</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+			1. An html page where java is embedded.
+				</p>
+			</section>
+			<section>
+				<h5>Java Script-let tag in JSP is </h5>
+				<hr>
+			<p class="fragment fade-in" data-fragment-index="1">1. <%    %></p>
+				<p class="fragment fade-in" data-fragment-index="2">2. <%=    %></p>
+				<p class="fragment fade-in" data-fragment-index="3">3. <%!   %></p>
+				<p class="fragment fade-in" data-fragment-index="4">4. <%@   %> </p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					1. <%    %>
+				</p>
+			</section>
+			<section>
+				<h5>The data from client to server is sent through </h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Http request object</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Http response object</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Http session object</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. None of the above</p>
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					1. Http request object
+				</p>
+			</section>
+			<section>
+				<h5>When a web application session is created to log out the session the command is</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Session.close();</p>
+				 
+				<p class="fragment fade-in" data-fragment-index="2">2. Session.validate();</p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Session.logout();</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Session.invalidate();</p>
+				 
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+					4. Session.invalidate();
+				</p>
+			</section>
+			<section>
+				<h5>To share the data between multiple requests in a session we need to use</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Request object</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Session object </p>
+				<p class="fragment fade-in" data-fragment-index="3">3. Response object</p>
+				<p class="fragment fade-in" data-fragment-index="4">4. Context object </p>
+				 
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+			2. Session object 
+				</p>
+			</section>
+      			<section>
+				<h5>In MVC architecture JSP pages should be used for</h5>
+				<hr>
+				<p class="fragment fade-in" data-fragment-index="1">1. Model</p>
+				<p class="fragment fade-in" data-fragment-index="2">2. Controller </p>
+				<p class="fragment fade-in" data-fragment-index="3">3. View </p>
+				<p class="fragment fade-in" data-fragment-index="4">4. None of the above </p>
+				 
+			</section>
+			<section>
+				<p class="fragment highlight-green">
+				3. View
+				</p>
+			</section>
+			
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			controls: true,
+			transition: 'concave',
+			progress: true,
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+</html>
